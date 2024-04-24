@@ -25,6 +25,14 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
+# Production Build
+1. Crear el archivo ```.env.prod```
+2. Llenar las variables de entorno de prod
+3. Crear la nueva imagen
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
 ## Acerca de mi
 
 Profesional informático con de experiencia en el ámbito del desarrollo de software, me he centrado en la utilización de tecnologías clave como Java/Spring Boot, Node y React para diseñar y desarrollar aplicaciones web y servicios REST.

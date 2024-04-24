@@ -9,6 +9,9 @@ import { Module } from '@nestjs/common';
   providers: [PokemonService],
   //forFeature es para indicar que el modelo PokemonSchema es parte de este modulo
   imports: [MongooseModule.forFeature([{ name: Pokemon.name, schema: PokemonSchema }])],
+  exports: [
+    MongooseModule
+  ]
 })
 
 export class PokemonModule { }

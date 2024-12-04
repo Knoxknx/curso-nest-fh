@@ -31,6 +31,6 @@ Profesional informático con de experiencia en el ámbito del desarrollo de soft
 
 ##
 
-- Autor - Elias Garcia Carvajal [LinkedIn](https://linkedin.com/in/elias-garcia-carvajal-02334384)
+- Autor - Elias Garcia Carvajal [LinkedIn](www.linkedin.com/in/knoxknx)
 - Profesor - Fernando Herrera [GitHub](https://github.com/Klerith)
 
